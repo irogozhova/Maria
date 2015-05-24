@@ -1,0 +1,74 @@
+body {
+	background-color: #fff;
+	font-family: Arial sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+h1 {
+	margin-top: 0;
+	font-size: 25px;
+}
+.main-content {
+	font-size: 15px;
+	width: 1000px;
+	margin: 20px auto;
+	min-height: 500px;
+	background-color: #fff;
+}
+.main-photo {
+	width: 200px;
+	height: 200px;
+	float: left;
+	border-radius: 4px;
+}
+.mine {
+	width: 750px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	float: left;
+}
+.hidden-p {
+	display: none;
+}
+.certificates {
+	clear: left;
+}
+.certificates a {
+	width: 120px;
+	height: 80px;
+	margin-right: 20px;
+}
+.certificates a img {
+	width: inherit; /*наследует ширину родителя*/
+}
+header	{
+	width: 1000px;
+	margin: 0 auto;
+	height: 150px;
+	background-color: #344C6E;
+	padding: 60px 50px;
+	font-size: 25px;
+	color: #fff;
+	font-weight: bold;
+	box-sizing: border-box; /*padding внутри или снаружи элемента*/
+	font-family: Tahoma, Verdana sans-serif;
+}
+footer	{
+	width: 1000px;
+	margin: 0 auto;
+	height: 50px;
+	background-color: #344C6E;
+	box-sizing: border-box;
+	padding: 10px;
+	color: #fff;
+
+}
+.copy {
+	float: left;
+}
+.social-links {
+	float: right;
+}
+.social-links a {
+	color: #fff;
+}

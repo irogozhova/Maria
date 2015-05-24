@@ -8,6 +8,9 @@ h1 {
 	margin-top: 0;
 	font-size: 25px;
 }
+h2 {
+	font-size: 20px;
+}
 .main-content {
 	font-size: 15px;
 	width: 1000px;
@@ -71,4 +74,63 @@ footer	{
 }
 .social-links a {
 	color: #fff;
+}
+
+/*kafedra*/
+.kafedra {
+	background-color: #EBEBEB;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.kafedra header {
+	background: -webkit-linear-gradient(top, #FCFCFC 0%,#DFDFDF 100%);
+	background: -ms-linear-gradient(top, #FCFCFC 0%,#DFDFDF 100%);
+	background: -moz-linear-gradient(top, #FCFCFC 0%,#DFDFDF 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#FCFCFC, endColorstr=#DFDFDF);
+
+	-webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.3);
+
+	color: #636363;
+	padding: 10px 45px;
+	height: 130px;
+}
+.kafedra header a {
+	display: block;
+	float: left;
+}
+.kafedra header span {
+	display: block;
+	float: left;
+	margin-top: 35px;
+	margin-left: 30px;
+}
+.kafedra .logo-img {
+	width: 100px;
+	height: 100px;
+}
+.kafedra .main-content {
+	box-sizing: border-box;
+	padding: 50px;
+}
+.kafedra .mine {
+	clear: left;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+.kafedra .main-photo {
+	float: right;
+}
+.kafedra .main-text {
+	float: left;
+	width: 700px;
+}
+.kafedra footer {
+	background-color: #636363;
+	height: 120px;
+	padding: 30px 45px;
+}
+
+.clear {
+	clear: both;
 }
